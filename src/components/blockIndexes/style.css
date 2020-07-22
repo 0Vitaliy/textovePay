@@ -1,0 +1,32 @@
+.indexesBlock {
+  margin-top: 40px;
+}
+
+.indexesBlock h2 {
+  font: '600 24px/112% "Inter", sans-serif';
+  margin-bottom: 15px;
+}
+
+.indexesBlock > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 1120px) {
+  .indexesBlock > div {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .indexesBlock > div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .indexesBlock > div {
+    grid-template-columns: 1fr;
+  }
+}

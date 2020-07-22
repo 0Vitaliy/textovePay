@@ -1,0 +1,14 @@
+.content h1 {
+  font: bold 54px/112% "Playfair Display", serif;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .content h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,21 @@
+.layout {
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(63, 92, 166, 0.05) 0%,
+      rgba(255, 255, 255, 0) 89.03%
+    ),
+    #f8f8fa;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .layout {
+    padding: 10px;
+  }
+}
