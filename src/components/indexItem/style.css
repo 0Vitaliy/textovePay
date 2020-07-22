@@ -20,7 +20,7 @@
   font: 500 18px/112% "Inter", sans-serif;
 }
 
-.capitalizationAndPercentageChange {
+.ethPriceInWeiAndPercentageChange {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;

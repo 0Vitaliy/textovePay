@@ -9,7 +9,7 @@ export const IndexesItem = ({ item }) => {
       <div className="usdPriceInCents">
         ${item.usdCapitalization} / {item.usdPriceInCents} ETH
       </div>
-      <div className="capitalizationAndPercentageChange">
+      <div className="ethPriceInWeiAndPercentageChange">
         <span className="ethPriceInWei">${item.ethPriceInWei} </span>
         <span className="percentageChange">+{item.percentageChange}%</span>
       </div>
